@@ -1,0 +1,228 @@
+/* Font Used */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Font FAmily
+
+  font-family: "Inter", sans-serif;*/
+
+  /* Body Styles */
+
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background: rgb(0, 0, 0);
+    color: white;
+  }
+
+  /* Shared Styles */
+
+  .btn-primary{
+    width: 225px;
+    height: 54px;
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+  }
+  .btn-secondary{
+    width: 225px;
+    height: 54px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    border-radius: 42px;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+  }
+
+  /* Navbar Styles */
+
+  .navbar{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .brand{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+  }
+  .menu-icon{
+    width: 24px;
+    height: 24px;
+    visibility: hidden;
+    
+  }
+  .item-container{
+    width: 460px;
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 38px;
+    justify-content: space-between;
+  }
+
+  ul li{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  #home{
+    width: 92px;
+    height: 38px;
+    border-radius: 46px;
+    border: none;
+    padding: 8px 20px 8px 20px;
+    background: rgb(230, 83, 60);
+  }
+  .header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(161, 143, 143, 0) 100%);
+  }
+
+  /* Banner STyle */
+
+  .banner{
+    width: 1100px;
+     margin: 0 auto;
+     display: flex;
+     gap: 50px;
+  }
+
+  .banner-content{
+    width: 520px;
+    height: 280px;
+  }
+
+  .banner-title{
+    font-size: 4.9rem;
+    font-weight: 900;
+  }
+
+  .banner-description{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .banner-img{
+   margin-left: auto;
+   display: flex;
+   
+  }
+
+  /* Image Style */
+
+  .trainer{
+   margin-right: -150px;
+  }
+
+  .upper-box{
+    width: 193px;
+    height: 98px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin-top: 400px;
+    margin-left: -280px;
+  }
+
+  .lower-box{
+    width: 193px;
+    height: 98px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin-right: -400px;
+    margin-top: 100px;
+   
+  }
+
+  .box-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  }
+
+  .box-description{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    margin-top: 5px;
+  }
+
+
+  /* Responsive Styles */
+
+  @media screen and (max-width : 576px) {
+    body{
+        padding: 20px;
+    }
+
+    .item-container{
+        display: none;
+    }
+
+    .banner{
+        width: 100%;
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 352px;
+    }
+    .banner-title{
+        font-size: 2.25rem;
+        width: 283px;
+
+    }
+    .banner-description{
+        width: 274px;
+    }
+    .trainer{
+        width: 100%;
+        margin-left: 300px;
+    }
+
+    .banner-img{
+        margin: 0 auto;
+        /* margin-right: 5px; */
+      
+    }
+    .btn-primary , .btn-secondary{
+        width: 140px;
+        height: 54px;
+        margin-top: 5px;
+    }
+
+    .upper-box , .lower-box{
+        width: 145px;
+        height: 75px;
+    }
+    .upper-box{
+        margin-left: 10px;
+        margin-right: 80px;
+    }
+
+  }
