@@ -95,7 +95,7 @@
     background: rgb(230, 83, 60);
   }
   .header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(161, 143, 143, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
   }
 
   /* Banner STyle */
@@ -192,7 +192,6 @@
   .section-description{
     
     color: rgba(255, 255, 255, 0.5);
-    text-align: center;
     margin-bottom: 50px;
   }
   .habit-container{
@@ -217,6 +216,41 @@
   .habit-img{
     border: 1px solid gray;
     border-radius: 50%;
+  }
+
+  /* Run-fast styles |Section-2 */
+
+  .run-fast{
+    width: 1050px;
+    height: 371px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+
+  }
+
+  .run-fast-content{
+    width: 443px;
+    height: 290px;
+    text-align: left;
+    /* margin: 41px 54px; */
+    margin: auto 0;
+    margin-left: 54px;
+    
+  }
+
+  .run-fast-image{
+    width: 366px;
+    height: 312px;
+    margin-top: 40px;
+    margin-right: 50px;
+    border-radius: 18px;
+    background: url(../images/run.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
 
@@ -289,6 +323,10 @@
     }
     .habit-subtitle{
       margin-bottom: 36px;
+    }
+
+    .run-fast{
+      flex-direction: column;
     }
 
 
