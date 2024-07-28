@@ -198,6 +198,7 @@
   .habit-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    gap: 36px;
   }
 
   .habit-box{
@@ -275,14 +276,19 @@
 
     .habit-container{
       grid-template-columns: repeat(1,1fr);
+      gap: 36px;
       
     }
     .habit-box{
       margin: 0 auto;
+      margin-bottom: 30px;
     }
     .section-title{
       font-size: 2rem;
       font-weight: 900;
+    }
+    .habit-subtitle{
+      margin-bottom: 36px;
     }
 
 
