@@ -253,6 +253,95 @@
     background-position: center;
   }
 
+  /* BMI Calculator Styles */
+
+  .calculator{
+    margin: 76px auto;
+    text-align: center;
+  }
+  .container{
+    height: 487px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-around;
+    gap: 175px;
+  }
+  .container-title{
+    font-size: 1.75rem;
+    font-weight: 900;
+  }
+
+  /* TAble Styles */
+  .chart{
+    width: 443px;
+    height: 386px;
+    text-align: left;
+    margin-left: 159px;
+    
+  }
+
+  table{
+    border-collapse: collapse;
+    width: 310px;
+    height: 216px;
+  }
+
+  td , th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  td{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+  }
+  th{
+    padding: 15px;
+  }
+
+  /* Form Style */
+  .form{
+    width: 577px;
+    height: 386px;
+    text-align: left;
+    margin-right: 159px;
+    
+  }
+
+  .container-description{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+  }
+
+  input{
+    width: 260px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 5px 5px 5px 0px;
+    
+  }
+
+  #sex{
+    width: 270px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    margin: 5px 5px 5px 0px;
+    
+  }
+  #activity{
+    width: 547px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    margin: 5px 5px 5px 0px;
+    
+  }
+
 
   /* Responsive Styles */
 
@@ -327,6 +416,10 @@
 
     .run-fast{
       flex-direction: column;
+      z-index: 2;
+    }
+    .habit-change{
+      z-index: 1;
     }
 
 
