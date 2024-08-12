@@ -348,12 +348,15 @@
   /* Responsive Styles */
 
   @media screen and (max-width : 576px) {
-    body{
+    /* body{
         padding: 20px;
-    }
+    } */
 
     .item-container{
         display: none;
+    }
+    .navbar{
+      width: 100%;
     }
 
     .banner{
@@ -373,7 +376,7 @@
     }
     .trainer{
         width: 100%;
-        margin-left: 200px;
+        margin-left: 300px;
     }
 
     .banner-img{
@@ -393,7 +396,10 @@
     }
     .upper-box{
         margin-left: 10px;
-        margin-right: 80px;
+        margin-right: 200px;
+    }
+    .lower-box{
+      margin-left: 10px;
     }
     .habit-change{
       /* width: 100%; */
@@ -449,9 +455,9 @@
   .container{
     flex-direction: column;
     width: 394px;
-    height: 772px;
+    height: 782px;
     margin: 0 auto;
-    gap: 50px;
+    gap: 30px;
     
   }
 
@@ -466,6 +472,7 @@
   .form{
     width: 100%;
     margin: 0 auto;
+    padding: 20px;
   }
 
   .container-title{
@@ -474,6 +481,17 @@
 
   input{
     width: 160px;
+    height: 45px;
+  }
+
+  #sex{
+    width: 165px;
+    height: 45px;
+
+  }
+  
+  #activity{
+    width: 348px;
     height: 45px;
   }
 
