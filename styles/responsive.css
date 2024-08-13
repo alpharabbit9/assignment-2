@@ -1,0 +1,176 @@
+ /* Responsive Styles */
+
+ @media screen and (max-width : 576px) {
+    /* body{
+        padding: 20px;
+    } */
+
+    .item-container{
+        display: none;
+    }
+    .navbar{
+      width: 100%;
+    }
+
+    .banner{
+        width: 100%;
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 352px;
+    }
+    .banner-title{
+        font-size: 2.25rem;
+        width: 283px;
+
+    }
+    .banner-description{
+        width: 274px;
+    }
+    .trainer{
+        width: 100%;
+        margin-left: 300px;
+    }
+
+    .banner-img{
+        margin: 0 auto;
+        /* margin-right: 5px; */
+      
+    }
+    .btn-primary , .btn-secondary{
+        width: 140px;
+        height: 54px;
+        margin-top: 5px;
+    }
+
+    .upper-box , .lower-box{
+        width: 145px;
+        height: 75px;
+    }
+    .upper-box{
+        margin-left: 10px;
+        margin-right: 200px;
+    }
+    .lower-box{
+      margin-left: 10px;
+    }
+    .habit-change{
+      /* width: 100%; */
+    }
+
+    .habit-container{
+      grid-template-columns: repeat(1,1fr);
+      gap: 36px;
+      
+    }
+    .habit-box{
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+    .section-title{
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    .section-description{
+      width: 270px;
+      font-size: 0.875rem;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .habit-subtitle{
+      margin-bottom: 36px;
+    }
+
+    .run-fast{
+      flex-direction: column;
+      width: 100%;
+      height: 531px;
+      border-radius: 18px;
+      background: rgb(34, 34, 34);
+      margin-left: 0;
+      text-align: center;
+      
+    }
+    .run-fast-image{
+      width: 287px;
+      height: 170px;
+      margin: 0 auto;
+      margin-bottom: 35px;
+      
+    }
+    #run{
+      width: 287px;
+      margin: 0 auto;
+      margin-right: 33px;
+    }
+    .habit-change{
+      z-index: 1;
+    }
+
+  .container{
+    flex-direction: column;
+    width: 394px;
+    height: 782px;
+    margin: 0 auto;
+    gap: 30px;
+    
+  }
+
+  .chart{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+
+    
+  }
+
+  .form{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .container-title{
+    font-size: 1rem;
+  }
+
+  input{
+    width: 160px;
+    height: 45px;
+  }
+
+  #sex{
+    width: 165px;
+    height: 45px;
+
+  }
+  
+  #activity{
+    width: 348px;
+    height: 45px;
+  }
+
+  /* Our Team Member */
+
+  .team{
+    width: 100%;
+    text-align: center;
+  }
+
+  .team-members{
+    width: 350px;
+    
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  #team-des{
+    text-align: center;
+    width: 309px;
+    
+
+  }
+
+
+
+  }
