@@ -27,12 +27,17 @@
         flex-direction: column;
     }
     .banner-content{
-        width: 352px;
+        width: 100%;
     }
     .banner-title{
         font-size: 2.25rem;
         width: 283px;
+        line-height: 120%;
 
+    }
+
+    #shape{
+      font-size: 4.25rem;
     }
     .banner-description{
         width: 274px;
@@ -66,6 +71,8 @@
     }
     .habit-change{
       width: 100%;
+      margin: 0 auto;
+      margin-bottom: 120px;
     }
 
     .habit-container{
@@ -104,6 +111,9 @@
       text-align: center;
       
     }
+    .run-fast-content{
+      width: 100%;
+    }
     .run-fast-image{
       width: 287px;
       height: 170px;
@@ -122,7 +132,7 @@
 
   .container{
     flex-direction: column;
-    width: 394px;
+    width: 100%;
     height: 782px;
     margin: 0 auto;
     gap: 30px;
@@ -183,6 +193,31 @@
 
   }
 
+  /* Creative section */
+
+  .why{
+    width: 100%;
+    margin: 0 auto;
+    
+    text-align: center;
+  }
+
+  .why-container{
+    grid-template-columns: repeat(1,1fr);
+    gap: 0;
+  }
+
+  .card-1 , .card-2 , .card-3{
+    width: 350px;
+    
+  }
+
+  .card-3{
+    /* margin-bottom: 100px; */
+    height: 300px;
+    margin-top: 20px;
+  }
+
   /* Footer */
   .last{
     width: 100%;
@@ -209,6 +244,10 @@
     width: 181px;
     height: 250px;
     margin-bottom: 20px;
+  }
+
+  .line{
+    width: 344px;
   }
 
 
