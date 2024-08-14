@@ -75,6 +75,7 @@
     text-align: center;
     padding: 10px;
     margin-right: 10px;
+    
   }
 
   ul li a{
@@ -97,6 +98,11 @@
   .header{
     max-width: 1550px;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  }
+
+  .ham{
+    width: 18px;
+    display: none;
   }
 
   /* Banner STyle */
@@ -178,7 +184,7 @@
 
   .habit-change{
     width: 1070px;
-    height: 452px;
+    /* height: 452px; */
     /* border: 1px solid aqua; */
     margin: 100px auto;
     text-align: center;
@@ -355,7 +361,7 @@
 
   .team-members{
     width: 1090px;
-    height: 604px;
+    /* height: 604px; */
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
     margin: 0 auto;
@@ -427,6 +433,83 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+
+  /* Last Section Styles */
+
+  .last{
+    max-width: 1550px;
+    height: 490px;
+    margin: 0 auto;
+    margin-top: 110px;
+    padding-top: 56px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .title{
+    font-size: 4.375rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .last-conatainer{
+    width: 1060px;
+    height: 250px;
+    margin: 66px 191px 60px 190px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 125px;
+  }
+
+  .box-1{
+    width: 443px;
+    height: 176px;
+    
+  }
+
+  .box-2{
+    width: 181px;
+    height: 250px;
+    text-align: left;
+  }
+  .box-3{
+    width: 181px;
+    height: 250px;
+    text-align: left;
+  }
+  .last-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .span{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .line{
+    width: 1060px;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    margin-bottom: 36px;
+  }
+
+  /* Footer Styles */
+
+  .foot{
+    max-width: 1550px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    font-size: 1.25rem;
+
+
   }
 
   
